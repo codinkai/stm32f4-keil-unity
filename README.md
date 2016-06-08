@@ -1,5 +1,5 @@
 
-# Unit-Tests with Unity and Keil on STM32F429I-DISCO
+# Unit-Tests with Unity and Keil on STM32F429I
 
 ## Description
 
