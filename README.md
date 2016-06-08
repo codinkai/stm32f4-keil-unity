@@ -10,14 +10,14 @@ board.
 
 ## Project Structure
 
- - Drivers
- - Inc: include files for peripherals
- - Src: source files for peripherals
- - MDK-ARM: Keil uVision project
- - Test: source files for tests
- - Usr: user's source and include files
- - Lib: external libraries
- - Log: generated log files
+ - Drivers: *microcontroller drivers; CMSIS, HAL*
+ - Inc: *include files for peripherals*
+ - Src: *source files for peripherals*
+ - MDK-ARM: *Keil uVision project*
+ - Test: *source files for tests*
+ - Usr: *user's source and include files*
+ - Lib: *external libraries; Unity*
+ - Log: *generated log files*
 
 ## Target 'Test'
 
