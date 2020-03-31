@@ -22,8 +22,8 @@
 #include "unity.h"
 #include <setjmp.h>
 #include <stdio.h>
-#include "debug_printf.h"
-
+//#include "debug_printf.h"
+#include "EventRecorder.h"
 /*=======External Functions This Runner Calls=====*/
 extern void setUp(void);
 extern void tearDown(void);
@@ -43,9 +43,11 @@ void resetTest(void)
 /*=======MAIN=====*/
 int main(void)
 {
+	EventRecorderInitialize(EventRecordAll, 1);
   UnityBegin("..\\Test\\my_test.c");
   RUN_TEST(testWillAlwaysPass, 13);
   RUN_TEST(testWillAlwaysFail, 17);
+	UnityEnd();
 
-  return (UnityEnd());
+  while(1);
 }

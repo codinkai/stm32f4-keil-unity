@@ -3,11 +3,11 @@
 #include "debug_printf.h"
 
 void setUp() {
-  printf("setUp my_test\n");
+  //printf("setUp my_test\n");
 }
 
 void tearDown() {
-  printf("tearDown my_test\n");
+  //printf("tearDown my_test\n");
 }
 
 void testWillAlwaysPass(void) {
