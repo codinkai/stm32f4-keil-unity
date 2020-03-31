@@ -28,6 +28,7 @@
 extern void setUp(void);
 extern void tearDown(void);
 extern void testWillAlwaysPass(void);
+extern void testWillAlwaysFail(void);
 
 
 /*=======Test Reset Option=====*/
@@ -44,6 +45,7 @@ int main(void)
 {
   UnityBegin("..\\Test\\my_test.c");
   RUN_TEST(testWillAlwaysPass, 13);
+  RUN_TEST(testWillAlwaysFail, 17);
 
   return (UnityEnd());
 }

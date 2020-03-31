@@ -14,6 +14,6 @@ void testWillAlwaysPass(void) {
   TEST_ASSERT_EQUAL_INT(42,42);
 }
 
-void xxtestWillAlwaysFail(void) {
+void testWillAlwaysFail(void) {
   TEST_ASSERT_EQUAL_INT(42,1);
 }
